@@ -1,0 +1,81 @@
+table,
+tr,
+td {
+    border: 1px solid black;
+    margin: 20px;
+}
+td {
+    width: 100px;
+    height: 100px;
+}
+/* END: Task 1 Styles */
+
+#task2 {
+    margin-left: 20px;
+}
+#tell {
+    border: 1px solid black;
+    width: 300px;
+    height: 30px;
+}
+#send {
+    width: 60px;
+    height: 35px;
+}
+#messageOk {
+    width: 360px;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: #1fac02;
+    border: 1px solid grey;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 60px;
+}
+#messageNo {
+    width: 360px;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: #e40101;
+    border: 1px solid grey;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 60px;
+}
+/* END: Task 2 Styles */
+
+#court {
+    width: 600px;
+    height: 330px;
+    background: url("assets/court.png");
+    background-size: 600px 330px;
+    margin: 20px;
+}
+#ball {
+    width: 40px;
+    height: 40px;
+    background: url("assets/ball.png");
+    background-size: 40px 40px;
+    position: relative;
+    top: 145px;
+    left: 280px;
+}
+.teamScore {
+    text-align: center;
+    width: 600px;
+    margin: 20px;
+    color: red;
+}
+#task3>div {
+    width: 600px;
+    margin: 20px;
+}
+#task3>div>span {
+    float: right;
+}
+#task3>div>span:first-child {
+    float: left;
+}
+/* END: Task 3 Styles */

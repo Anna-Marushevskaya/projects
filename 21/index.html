@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+    <div class="calculator">
+      <form name="form">
+        <input class="inputDisplay" placeholder="0">
+      </form>
+      <table>
+        <tr>
+          <td colspan="2"><input type="button" class="typeButton clearButton" value="C" onclick="clearInput()"></td>
+          <td><input type="button" class="typeButton" value="/" onclick="insertCharacter('/')"></td>
+          <td><input type="button" class="typeButton" value="x" onclick="insertCharacter('*')"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="typeButton" value="7" onclick="insertCharacter(7)"></td>
+          <td><input type="button" class="typeButton" value="8" onclick="insertCharacter(8)"></td>
+          <td><input type="button" class="typeButton" value="9" onclick="insertCharacter(9)"></td>
+          <td><input type="button" class="typeButton" value="-" onclick="insertCharacter('-')"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="typeButton" value="4" onclick="insertCharacter(4)"></td>
+          <td><input type="button" class="typeButton" value="5" onclick="insertCharacter(5)"></td>
+          <td><input type="button" class="typeButton" value="6" onclick="insertCharacter(6)"></td>
+          <td><input type="button" class="typeButton" value="+" onclick="insertCharacter('+')"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="typeButton" value="1" onclick="insertCharacter(1)"></td>
+          <td><input type="button" class="typeButton" value="2" onclick="insertCharacter(2)"></td>
+          <td><input type="button" class="typeButton" value="3" onclick="insertCharacter(3)"></td>
+          <td rowspan="2"><input type="button" class="typeButton resultButton" value="=" onclick="result()"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" class="typeButton zeroButton" value="0" onclick="insertCharacter(0)"></td>
+          <td><input type="button" class="typeButton" value="." onclick="insertCharacter('.')"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="log">
+      <div class="log-line">
+      </div>
+    </div>
+    </div>
+  </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

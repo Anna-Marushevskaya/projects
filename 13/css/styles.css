@@ -1,0 +1,685 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+.menu_navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px 0;
+  width: 100%;
+  position: fixed;
+}
+
+.menu_left {
+  margin-left: 100px;
+}
+
+.menu_right {
+  margin-right: 100px;
+}
+
+.menu_right a {
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 70%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0078aa;
+}
+
+.lady_block {
+  padding-top: 100px;
+  background-image: url('../img/lady.jpg');
+  background-size: cover;
+  height: 50%;
+  background-position: center;
+  border-bottom-right-radius: 150px 100px;
+}
+
+.lady_block_content {
+  padding: 100px;
+}
+
+.name {
+  width: 400px;
+}
+
+.text {
+  width: 400px;
+  font-size: 70%;
+  color: #363636;
+  padding-bottom: 10px;
+}
+
+.icon_back:hover {
+  background: #fff;
+  border: 1px solid #0078aa;
+  transition: .5s;
+}
+
+.icon:hover {
+  transition: .5s;
+  filter: invert(26%) sepia(89%) saturate(1775%) hue-rotate(175deg) brightness(94%) contrast(101%);
+}
+
+.icon_back {
+  display: inline-block;
+  border-radius: 50%;
+  background: #0078aa;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.icon {
+  height: 30px;
+  margin-top: 10px;
+  filter: invert(100%) sepia(0%) saturate(7443%) hue-rotate(162deg) brightness(116%) contrast(100%);
+}
+
+.sticker {
+  display: inline-block;
+  border-radius: 50%;
+  background: #0078aa;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  text-align: center;
+  position: sticky;
+  top: 300px;
+  left: 1400px;
+}
+
+.img_stick {
+  height: 30px;
+  margin-top: 10px;
+  filter: invert(100%) sepia(0%) saturate(7443%) hue-rotate(162deg) brightness(116%) contrast(100%);
+}
+
+.about-clinic {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.about-clinic img {
+  width: 50%;
+  height: 50%;
+}
+
+.text-about-clinic {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.text-about-clinic h2 {
+  margin-bottom: 0;
+}
+
+.prof-care {
+  font-weight: lighter;
+  color: #0078aa;
+  margin-top: 5px;
+}
+
+.list {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:before {
+  content: '\21E8';
+  color: #0078aa;
+  margin-right: 10px;
+}
+
+li:first-line {
+  font-weight: bolder;
+}
+
+li p {
+  font-size: 70%;
+  color: #363636;
+  margin-top: 0;
+}
+
+.how-we-help {
+  background-image: url('../img/services_bg.jpg');
+  height: 50%;
+  background-position: center;
+}
+
+.blocks {
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.name-block {
+  margin-bottom: 0;
+}
+
+.description-block {
+  font-size: 70%;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column-block {
+  font-size: 80%;
+  margin: 9px auto;
+  padding: 10px;
+  text-align: left;
+  width: 29%;
+  background-color: #fff;
+}
+
+.column-block img {
+  width: 30%;
+  height: auto;
+}
+
+.column-block h3 {
+  margin: 0;
+}
+
+.column-block p {
+  color: #363636;
+}
+
+.offers_blocks {
+  background-image: url('../img/pricing_bg.jpg');
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.columns_offers {
+  display: inline-flex;
+  align-items: center;
+}
+
+.col_offers {
+  padding: 15px 30px;
+  text-align: center;
+  background-color: rgb(0, 203, 234);
+  color: white;
+  width: 300px;
+  height: 450px;
+}
+
+.col_offers>h4 {
+  margin-top: 65px;
+}
+
+.col_offers span {
+  font-weight: bolder;
+  font-size: 280%;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.discr {
+  font-size: 70%;
+  margin-top: 5px;
+}
+
+.getNow {
+  width: 70px;
+  background-color: #fff;
+  border: 1px solid #0078aa;
+  border-radius: 6px;
+  color: #0078aa;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 80%;
+  font-weight: bolder;
+}
+
+.getNow:hover {
+  background-color: #0078aa;
+  transition: .5s;
+  color: #fff;
+}
+
+.col2 {
+  background-color: white;
+  border: 1px solid #0078aa;
+  color: #0078aa;
+  height: 490px;
+}
+
+.list_text {
+  font-size: 70%;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.image_left {
+  width: 50%;
+}
+
+.form_right {
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+}
+
+.form_right h2 {
+  margin-bottom: 0;
+}
+
+.form_right p {
+  font-size: 70%;
+  margin-top: 5px;
+  color: #343636;
+}
+
+.form_contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #363636;
+  height: 30px;
+  text-align: center;
+  font-size: 70%;
+  color: #fff;
+}
+
+.footer p {
+  padding: 8px 0;
+  margin: 0;
+}
+
+.input_info {
+  background-color: #fff;
+  border: 0px;
+  border-bottom: 1px solid rgb(52, 54, 54, 0.2);
+  color: #343636;
+  font-style: italic;
+  font-size: 70%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.input_info_button {
+  width: 70px;
+  background-color: #0078aa;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input_info_button:hover {
+  background-color: #fff;
+  border: 1px solid #0078aa;
+  color: #0078aa;
+  transition: .5s;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+  }
+
+  .menu_navigator {
+    background-color: #fff;
+    padding: 5px 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    position: fixed;
+  }
+
+  .menu_left {
+    margin-left: 20px;
+  }
+  
+  .menu_right {
+    margin-right: 20px;
+  }
+  
+  .lady_block {
+    padding-top: 100px;
+    background-image: url('../img/lady.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 300px;
+    background-position:left;
+    border-radius: 0;
+  }
+  
+  .lady_block_content {
+    padding: 0px;
+    text-align: left;
+  }
+  
+  .name {
+    padding: 0 10px;
+  }
+  
+  .text {
+    margin: 10px;
+  }
+  
+  .icon_back {
+    margin-left: 10px;
+  }
+
+  .about-clinic {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .blocks {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .columns_offers {
+    width: 95%;
+  }
+  
+  .col2 {
+    background-color: white;
+    border: 1px solid #0078aa;
+    color: #0078aa;
+    height: 490px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+  }
+
+  .menu_navigator {
+    background-color: #fff;
+    padding: 5px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    justify-content:initial;
+    position: fixed;
+  }
+  
+  .menu_left {
+    margin-left: 20px;
+  }
+  
+  .menu_right {
+    margin-right: 20px;
+  }
+  
+  .lady_block {
+    padding-top: 100px;
+    background-image: url('../img/lady.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 300px;
+    background-position:left;
+    border-radius: 0;
+  }
+  
+  .lady_block_content {
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .name {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 70%;
+  }
+  
+  .text {
+    width: 70%;
+    font-size: 90%;
+    color: #363636;
+    margin: 10px auto;
+    padding-bottom: 10px;
+  }
+  
+  .icon_back {
+    display: inline-block;
+    border-radius: 50%;
+    background: #0078aa;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .icon {
+    height: 30px;
+    margin-top: 10px;
+    filter: invert(100%) sepia(0%) saturate(7443%) hue-rotate(162deg) brightness(116%) contrast(100%);
+  }
+  
+  .about-clinic {
+    margin: 30px 0;
+    display: block;
+    width: 100%;
+  }
+  
+  .about-clinic img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .text-about-clinic {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .text-about-clinic h2 {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+  
+  .prof-care {
+    font-weight: lighter;
+    color: #0078aa;
+    margin-top: 5px;
+  }
+  
+  .list {
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  li:before {
+    content: '\21E8';
+    color: #0078aa;
+    margin-right: 10px;
+  }
+  
+  li:first-line {
+    font-weight: bolder;
+  }
+  
+  li p {
+    font-size: 70%;
+    color: #363636;
+    margin-top: 0;
+  }
+  
+  .how-we-help {
+    background-image: url('../img/services_bg.jpg');
+    height: 50%;
+    background-position: center;
+  }
+  
+  .blocks {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .name-block {
+    margin-bottom: 0;
+  }
+  
+  .description-block {
+    font-size: 70%;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+  
+  .columns {
+    display: block;
+    justify-content: initial;
+  }
+  
+  .column-block {
+    font-size: 80%;
+    margin: 9px auto;
+    text-align: left;
+    width: 90%;
+    background-color: #fff;
+  }
+  
+  .column-block img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .column-block h3 {
+    margin: 0;
+  }
+  
+  .column-block p {
+    color: #363636;
+  }
+  
+  .offers_blocks {
+    background-image: url('../img/pricing_bg.jpg');
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .columns_offers {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .col_offers {
+    padding: 15px 0;
+    margin: 15px auto;
+    text-align: center;
+    background-color: rgb(0, 203, 234);
+    color: white;
+    width: 90%;
+    height: 450px;
+  }
+  
+  .col_offers>h4 {
+    margin-top: 65px;
+  }
+  
+  .col_offers span {
+    font-weight: bolder;
+    font-size: 280%;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  
+  .discr {
+    font-size: 70%;
+    margin-top: 5px;
+  }
+  
+  .getNow {
+    width: 70px;
+    background-color: #fff;
+    border: 1px solid #0078aa;
+    border-radius: 6px;
+    color: #0078aa;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 80%;
+    font-weight: bolder;
+  }
+  
+  .col2 {
+    background-color: white;
+    border: 1px solid #0078aa;
+    color: #0078aa;
+    height: 490px;
+  }
+  
+  .list_text {
+    font-size: 70%;
+  }
+  
+  .contacts {
+    display: block;
+    align-items: center;
+  }
+  
+  .image_left {
+    width: 100%;
+  }
+  
+  .form_right {
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .input_info {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .form_contact {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+  }
+}

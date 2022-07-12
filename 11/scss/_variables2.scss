@@ -1,0 +1,36 @@
+$font-stack: Source Sans Pro, sans-serif;
+$font-section: Hind, sans-serif;
+$primary-color: white;
+$back-color: #3B3F50;
+$contentBackground: #21232E;
+$backround-header: url("../img/m-h-night.jpg");
+$gradien-banner: linear-gradient(45deg, #DCA107, #932E51);
+@mixin button {
+    background-color: #E3AC00;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 50px;
+}
+$font-weights: ("lighter": 200, "regular": 400, "medium": 600, "bold": 800);
+@mixin word-back-awesome {
+    content: "awesome";
+    background-color: #FF4E33;
+    position: absolute;
+    left: 79px;
+}
+@mixin word-back-adventure {
+    content: "adventure";
+    background-color: #FF4E33;
+    position: absolute;
+    left: 726px;
+}
+@mixin word-back-start {
+    content: "start";
+    background-color: #FF4E33;
+    position: absolute;
+    left: 170px;
+}

@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+}
+select {
+    margin: 20px;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+th, tr, td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+th {
+    background: #40826d;
+    color: white; 
+  }
+tr:nth-child(2n+1) {
+	background-color: #f0f0f0;
+
+}
+tr:hover {
+    background: #d4d2d2;
+    color:black;
+}
+form > div {
+    float: left;
+    width: 50%;
+}
+form > div:first-child {
+    line-height: 40px;
+    text-align: right;
+}
+#fieldset {
+    text-align: left;
+}
+.arrow {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+}
+.arrow:hover{
+      cursor: pointer;
+}
+.up {
+    transform: rotate(-135deg);
+} 
+.down {
+    transform: rotate(45deg);
+} 
+.both{
+      margin-left: -9px;
+      margin-bottom: -5px;
+}

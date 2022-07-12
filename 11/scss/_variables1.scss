@@ -1,0 +1,36 @@
+$font-stack: Source Sans Pro, sans-serif;
+$font-section: Hind, sans-serif;
+$primary-color: #333;
+$back-color: #21232E;
+$contentBackground: #fff;
+$backround-header: url("../img/m-h-day.jpg");
+$gradien-banner: linear-gradient(45deg, #629217, #2d5bd6);
+@mixin button {
+    background-color: #699900;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 80px;
+}
+$font-weights: ("lighter": 200, "regular": 400, "medium": 600, "bold": 800);
+@mixin word-back-awesome {
+    content: "awesome";
+    background-color: #14A0C7;
+    position: absolute;
+    left: 79px;
+}
+@mixin word-back-adventure {
+    content: "adventure";
+    background-color: #14A0C7;
+    position: absolute;
+    left: 726px;
+}
+@mixin word-back-start {
+    content: "start";
+    background-color: #14A0C7;
+    position: absolute;
+    left: 155px;
+}

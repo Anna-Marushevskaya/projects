@@ -1,0 +1,99 @@
+body {
+	margin: 60px 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	align-items: center;
+}
+
+.wrapper {
+	display: flex;
+	align-content: center;
+	justify-content: space-evenly;
+}
+
+.calculator {
+	width: 344px;
+	background-color: rgb(58, 58, 58);
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.inputDisplay {
+	width: 100%;
+	height: 80px;
+	background-color: rgb(37, 37, 37);
+    color: white;
+    margin-top: 0;
+	margin-bottom: 10px;
+	border-radius:10px;
+	font-size: 24px;
+}
+
+.typeButton {
+	width: 82px;
+	height: 82px;
+	margin: 1px;
+	color: white;
+	border-radius: 5px;
+	background-color: rgb(123, 123, 123);
+	font-size: 24px;
+} 
+
+.clearButton {
+    background-color: rgb(255, 157, 0);
+    width: 168px;
+}
+
+.resultButton {
+    background-color: rgb(255, 157, 0);
+    height: 168px;
+}
+
+.zeroButton {
+    width: 168px;
+}
+
+.checkbox-button {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	outline: none;
+	border-radius: 50%;
+	border: 2px solid red;
+}
+
+.checkbox-button-hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+.checkbox-button:hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+  .sign {
+	color: black;
+  }
+
+  .sign:hover {
+	color: red;
+	cursor: pointer;
+  }
+
+  .log-line {
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-evenly;
+  }
+
+  .result {
+	  font-size: smaller;
+	  width: 250px;
+	  text-align: center;
+  }
+
+  .log {
+	  height: 568px;
+	  overflow:scroll;
+  }

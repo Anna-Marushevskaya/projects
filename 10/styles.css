@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+li:hover {
+    cursor: pointer;
+}
+li {
+    list-style-type: none;
+    padding: 8px;
+    display: block;
+}
+button {
+    margin: 0 10px;
+}
+#alertMessage {
+    background-color: rgb(255, 223, 223);
+    width: 400px;
+}
+#alertMessageText {
+    font-size: 18px;
+}
+.remove {
+    background: rgb(124, 124, 124);
+    border: solid 1px rgb(49, 49, 49);
+    color: white;
+}
+.like {
+    background: rgb(196, 44, 44);
+    border: solid 1px rgb(49, 49, 49);
+    color: white;
+}
+#backButton{
+    background: rgb(0, 83, 83);
+    border: solid 1px rgb(49, 49, 49);
+    color: white;
+}

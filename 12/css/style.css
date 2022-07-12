@@ -1,0 +1,262 @@
+body {
+    background-color: #F3F3F3;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 900px;
+}
+
+.header {
+    background-image: url(../img/apples.jpg);
+    background-position: center;
+    height: 740px;
+    color: #FFF;
+}
+
+.menu_navigator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+    font-size: 80%;
+}
+
+.menu_right span {
+    padding-left: 50px;
+}
+
+.header_text {
+    margin: 170px 0 90px 0;
+}
+
+.header_wrap {
+    text-align: center;
+}
+
+.big {
+    font-size: 200%;
+}
+
+.black_white {
+    font-size: 300%;
+    letter-spacing: 6px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.discription {
+    font-size: 70%;
+}
+
+.header_button {
+    background-color: rgba(52, 54, 56, 0.8);
+    border: solid 2px white;
+    color: white;
+    padding: 10px 52px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 100px 0;
+}
+
+.main_content {
+    margin: auto;
+}
+
+.white_block {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.white_block_left {
+    flex: 0 0 50%;
+    margin: 100px 0 100px 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.white_block_right {
+    font-size: 70%;
+    margin: 100px 30px 100px 0;
+}
+
+.grey_block {
+    text-align: center;
+    flex: 0 1 auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.blocks {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.block_column {
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 70%;
+    position: relative;
+}
+
+.text_blocks {
+    text-align: center;
+    color: #343638;
+}
+
+.text_blocks {
+    width: 35%;
+}
+
+.overlay_left {
+    background-image: url('../img/sample.jpg');
+    background-size: cover;
+    width: 65%;
+    height: 220px;
+    margin-right: 20px;
+    box-shadow: inset 0 0 40px 15px rgba(0,0,0,0.25);
+}
+
+.overlay_text {
+    color: white;
+    position: absolute;
+    top: 177px;
+    left: 15px;
+}
+
+.overlay_button {
+    background-color: rgba(52, 54, 56, 0.6);
+    border: solid 1.7px white;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 15px;
+    left: 480px;
+}
+
+.overlay_button::after {
+    content: '\2665';
+    color: white;
+}
+
+.overlay_right {
+    background-image: url('../img/sample1.jpg');
+    background-size: cover;
+    width: 65%;
+    height: 220px;
+    margin-left: 20px;
+    box-shadow: inset 0 0 40px 15px rgba(0,0,0,0.25);
+}
+
+.overlay_text_right {
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 325px;
+}
+
+.overlay_button_right {
+    background-color: rgba(52, 54, 56, 0.6);
+    border: solid 1.7px white;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 15px;
+    left: 787px;
+}
+
+.overlay_button_right::after {
+    content: '\2665';
+    color: white;
+}
+
+.white_block_subscribe {
+    background: white;
+    margin: 30px 30px;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.white_block_subscribe p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.white_block_subscribe form > .main__input{
+    width: 400px;
+}
+
+.white_block_bottom {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 70%;
+    padding: 100px 30px;
+    margin-bottom: 10px;
+    line-height: 1.7;
+    color: #343638;
+}
+
+.white_block_bottom p {
+    color: #A4A4A4;
+}
+
+.column2 {
+    margin: 0 16px;
+}
+
+.column4 {
+    margin-left: 16px;
+}
+
+.main__form {
+    display: inline-flex;
+}
+
+.main__input {
+    border: 1px solid black;
+    background: #E8E8E8;
+    padding: 10px 30px 10px 8px;
+}
+
+.main__button {
+    background-color: #343638;
+    border: solid 1px black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: white;
+    flex: 0 0 auto;
+    font-size: 70%;
+}
+
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    color: #A4A4A4;
+}
